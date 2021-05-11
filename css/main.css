@@ -6,6 +6,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  font-family: Flaticon;
 }
 a {
   text-decoration: none;
@@ -38,3 +39,41 @@ header .header-icons-container .icons {
 header .icons span {
   color: white;
 }
+header nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+header nav .nav-logo-container {
+  margin-left: 50px;
+}
+header nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+header nav .nav-logo-container img {
+  width: 220px;
+  margin-top: 10px;
+}
+header nav .profile-link a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+/* ---------- MAIN ---------- */
+.hero-container {
+  border: 1px solid red;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.hero-container section {
+  grid-column: 2 / 4;
+}
+.hero-container h1 {
+  grid-column-start: 3;
+  background: blue;
+  border: 1px solid green;
+}
+/* ---------- END MAIN ---------- */
