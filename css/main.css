@@ -63,18 +63,17 @@ header nav .profile-link a {
 }
 /* ---------- MAIN ---------- */
 .hero-container {
-  border: 1px solid red;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 }
 .hero-container section {
-  grid-column: 2 / 4;
+  grid-column: 2 / 8;
 }
 .hero-container h1 {
   height: 100%;
-  grid-column-start: 3;
   color: #fff;
+  text-align: center;
   background-image: url(/assets/img/hero.png);
   background-repeat: no-repeat;
   background-size: 100%;
