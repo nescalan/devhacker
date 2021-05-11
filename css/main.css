@@ -72,8 +72,11 @@ header nav .profile-link a {
   grid-column: 2 / 4;
 }
 .hero-container h1 {
+  height: 100%;
   grid-column-start: 3;
-  background: blue;
-  border: 1px solid green;
+  color: #fff;
+  background-image: url(/assets/img/hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 /* ---------- END MAIN ---------- */
