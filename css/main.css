@@ -78,7 +78,7 @@ header nav .profile-link a {
   background-size: 100%;
 }
 .main-hero-container section {
-  height: 350px;
+  height: 400px;
   margin-top: 80px;
   grid-column: 2 / 4;
   font-size: 15px;
@@ -93,7 +93,7 @@ header nav .profile-link a {
   letter-spacing: 10px;
   text-align: center;
 }
-.main-hero-container input {
+.main-hero-container .home-main-button {
   width: 100px;
   height: 40px;
   background: var(--green);
