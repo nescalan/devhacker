@@ -76,7 +76,7 @@ header nav .profile-link a {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-image: url(/assets/img/hero-image.png);
+  background-image: url(https://i.postimg.cc/ZRbYfNdt/hero-image.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
